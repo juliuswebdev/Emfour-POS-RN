@@ -58,7 +58,7 @@ class Products extends Component {
 
 
       let { category_id } = this.props.route.params;
-      let productsAPI = apiUrl.API_URL+'api/v1/products?category_id='+category_id+'&location_id=7';
+      let productsAPI = apiUrl.API_URL+'api/v1/products?category_id='+category_id+'&location_id=13';
       let response = await fetch(productsAPI, {
           method: 'GET',
           headers: {
